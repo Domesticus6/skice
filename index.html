@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kafija</title>
+    <link rel="stylesheet" href="style.css" class="stylesheet">
+</head>
+<body class="bg-image" onload="document.body.style.opacity='1'">
+<noscript>
+    <h3>Sorry, your browser does not support JavaScript!</h3>
+</noscript>
+<div class="header" id="header">
+    <img id="logo" src="./images/logo.png" alt="Logo">
+    <h1>Kafija katrai gaumej</h1>
+</div>
+
+<div class="row">
+    <div class="column left" id="navbar">
+        <ul>
+            <li>
+                <a class="menu-btn" href="#header">
+                    Jaunumi
+                </a>
+            </li>
+
+            <li>
+                <a class="menu-btn" href="#galereja">
+                    Galereja
+                </a>
+            </li>
+            <li>
+                <a class="menu-btn" href="#par-mums">
+                    Par mums
+                </a>
+            </li>
+            <li>
+                <a class="menu-btn" href="#feedback">
+                    Nosutit formu
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="column middle">
+        <h1 id="Jaunumi">Jaunumi</h1>
+
+        <div class="post">
+            <h1>Kafija- melnais grēks vai veselības panaceja?</h1>
+            <img src="./images/post1.jpg" alt="kafija" class="post-img">
+            <p>
+                Kafija ir viens no tiem produktiem, par kuru visbiežāk dzirdētais ir vai nu melns vai balts. Taču kā jau ar visu- domas uztura speciālistu un zinātnieku vidū dalās, un monētai, kā vienmēr, ir divas puses. Arī šajā rakstā mēģināšu šķetināt kafijas plusus un mīnusus, taču uzreiz varu pateikt vienu (ko no manis var dzirdēt gana bieži) - kas vienam zāles, otram inde!
+            </p>
+            <div class="post-end"></div>
+        </div>
+
+        <div class="post">
+            <h1>Kafija - ka dienas saukums</h1>
+            <img src="./images/post2.jpg" alt="kafija" class="post-img">
+            <p>
+                Kafija ir viena no lietām, bez kā neskaitāmi cilvēki nevar iedomāties savas dienas sākumu, bet daļa arī pusdienlaiku un pēcpusdienu. Par to, vai kafija ir veselīga vai, tieši pretēji, kaitīga veselībai, ļoti daudzi nav vienisprātis. Ir cilvēki, kas novērtē enerģiju un spēku, ko tā dod, bet citi šim dzērienam pārmet negatīvu ietekmi uz sirdsdarbību un gremošanas sistēmu.
+            </p>
+            <div class="post-end"></div>
+        </div>
+        <h1 id="galereja">Galereja</h1>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="./images/slideshow1.jpg" style="width:100%" alt="slide 1" class="image">
+                <div class="text">Kafija</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="./images/slideshow2.jpg" style="width:100%" alt="slide 2" class="image">
+                <div class="text">Kafejnica</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="./images/slideshow2.jpg" style="width:100%" alt="slide 2" class="image">
+                <div class="text">Kafejnica</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="./images/slideshow1.jpg" style="width:100%" alt="slide 1" class="image">
+                <div class="text">Kafija</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <div class="post-end"></div>
+        <h1 id="par-mums">Par mums</h1>
+        <p>
+        Tālrunis: / Phone: + 371 67 226 690 <br>
+        e-pasts: / e-mail: random@randommail.lv
+        </p>
+        <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.8723557065446!2d24.10489503154042!3d56.95098815721916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8232262f97686e5!2sDoma+D%C4%81rzs!5e0!3m2!1sru!2slv!4v1551727990088" width="100%" height="400"  style="border:0" allowfullscreen></iframe>
+
+        <div class="post-end"></div>
+        <h1 id="feedback">Pierakstītities musu e-pastam</h1>
+            <div class="button">
+                <div class="button information">
+                    <label for="email"></label>
+                    <img src="https://img.icons8.com/metro/26/000000/new-post.png" alt=""><input id="email" type="email" placeholder="E-mail" required>
+                    <label for="name"></label>
+                    <img src="https://img.icons8.com/metro/52/000000/name.png" alt=""><input id="name" type="text" placeholder="Vards" pattern="[A-Za-z]{1,15}" title="Lietotaja vardam jabut tikai lieli un mazi latiņu burti! piemēram Andrejs" required>
+                </div>
+            </div>
+        <div class="submit">
+            <label for="submit"></label>
+            <input id="submit" type="submit"  value="Send"/>
+        </div>
+    </div>
+    <div class="column right">
+        <img class="banner" src="./images/banner.png" alt="banner">
+    </div>
+</div>
+
+<div class="right-mobile">
+    <img class="banner" src="./images/banner_mobile.png" alt="banner">
+</div>
+
+<div class="footer">
+    <p>Visas tiesibas aizsargatas © 2019</p>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/javascript.js"></script>
+<SCRIPT  src="js/popup_img.js"></SCRIPT>
+</body>
+</html>
